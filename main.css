@@ -26,9 +26,18 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .fa-th {
-    margin-top: 2.5rem;
-    color:rgb(124, 124, 124)
+    margin-top: 1.2rem;
+    color:rgb(124, 124, 124);
+    font-size: 1.6rem;
+}
+
+.fa-th:hover {
+    color: black;
 }
 
 #profile-icon {
@@ -50,8 +59,8 @@ nav a {
 }
 
 #search-menu {
-    width: 55rem;
-    height: 4rem;
+    width: 50rem;
+    height: 3.8rem;
     margin: 1rem auto auto auto;
     border-radius: 50px;
     border-color: rgba(128, 128, 128, 0.2);
@@ -60,12 +69,12 @@ nav a {
 }
 
 #search-bar {
-    height: 2.5rem;
-    width: 45rem;
+    height: 2rem;
+    width: 40rem;
     border-color: transparent;
 }
 
-i.fas {
+form i {
     height: 3rem;
     width: 3rem;
     font-size: 1.3rem;
@@ -73,7 +82,7 @@ i.fas {
     padding: 1.3rem 0;
 }
 
-i.fa-search {
+.fa-search {
     color: grey;
 }
 
